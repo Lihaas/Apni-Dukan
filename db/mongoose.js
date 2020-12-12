@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://127.0.0.1:27017/apniDukan',{
+mongoose.connect(process.env.MONGOA_DB_URL,{
     useUnifiedTopology:true,
     useCreateIndex:true,
     useNewUrlParser: true,
