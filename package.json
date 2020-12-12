@@ -4,7 +4,7 @@
   "description": "demo app",
   "main": "index.js",
   "scripts": {
-    "start": "npm index.js"
+    "start": "node index.js"
   },
   "author": "Sahil Verma",
   "license": "ISC",
